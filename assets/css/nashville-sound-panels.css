@@ -1,48 +1,15 @@
-/* Slide arrows */
-
-.fp-controlArrow.fp-prev {
-  border-color: transparent #fff transparent transparent;
-  border-top-color: transparent;
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-}
-
-.fp-controlArrow.fp-next {
-  border-color: transparent #fff transparent transparent;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: rgb(0, 0, 0);
-}
-/* test */
-.custom-stain-img {
-  background-color: rgba(200, 20, 200, 1);
-}
-
-/* test */
-#home-style {
-  background-color: black;
-}
-#why-we-here-style {
-  background-color: white;
-}
-#explore-style {
-  background-color: black;
-}
-#contact-us-style {
-  background-color: darkcyan;
-}
-/* test ^ */
+/* Custom styles */
 
 p {
   font-size: 18px;
 }
+
 .center-600 {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .forbottom {
   width: auto;
 }
