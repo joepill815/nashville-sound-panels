@@ -1,7 +1,7 @@
 /* Custom styles */
 
 p {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .center-600 {
@@ -17,8 +17,18 @@ p {
   font-size: 60px;
   padding-left: 6px;
   padding-right: 6px;
+  color: #212529;
 
 }
+
+
+.blackz {
+
+  background-image:
+  background-color: #000000;
+
+}
+
 /* TODO
 .titlez {
   font-size: px;
