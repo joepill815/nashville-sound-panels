@@ -26,8 +26,29 @@
   });
 
   // Email
-  var usrnme = "team";
-  var hstnme = "nashvillesoundpanels.com";
-  var linktext = "mail" + "to:" + usrnme + "@" + hstnme;
+  var usernme = "team";
+  var hostnme = "nashvillesoundpanels.com";
+  var linktext = "mailto:" + usernme + "@" + hostnme;
   $("#eml").attr("href", linktext);
 })(jQuery); // End of use strict
+
+var feed = new Instafeed({
+  get: 'user',
+  accessToken: '4597544082.55598cd.6415a38a96fd47a1a541e8d9da76d7e2',
+  resolution: 'standard_resolution',
+  template: '<a class="grid-item" href="{{link}}"><img src="{{image}}" /></a>',
+  limit: 30,
+  sortBy: 'most-recent',
+  after: function() {
+    var elem = document.querySelector('.grid');
+    imagesLoaded(elem, function(instance) {
+      var msnry = new Masonry(elem, {
+        // options
+        columnWidth: '.grid-sizer',
+        itemSelector: '.grid-item',
+        percentPosition: true
+      });
+    });
+  }
+});
+feed.run();

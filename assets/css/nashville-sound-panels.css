@@ -33,3 +33,29 @@ p {
 .titlez {
   font-size: px;
 }*/
+
+/* ---- grid ---- */
+
+.grid {
+  display: flex;
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}

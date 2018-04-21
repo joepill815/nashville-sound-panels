@@ -2,21 +2,17 @@
   "description": "Nashville Sound Panels Website",
   "main": "index.html",
   "contributors": [
-    "Joseph Pillatsch",
+    "Joseph Pillatsch"
   ],
   "license": "MIT",
   "name": "nashville-sound-panels-website",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/joepill815/nashville-sound-panels"
   },
-  "devDependencies": {
-    "grunt": "^1.0.2",
-    "grunt-contrib-watch": "^1.0.0",
-    "matchdep": "^2.0.0"
-  },
   "dependencies": {
-    "fullpage.js": "^2.9.6"
+    "fullpage.js": "^2.9.6",
+    "instafeed": "^2.0.0"
   }
 }
