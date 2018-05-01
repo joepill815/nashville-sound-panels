@@ -21,10 +21,19 @@ p {
 
 }
 
+.nobgpanel {
+margin-left: 100px;
+
+}
+
 .cardblah {
 
   font-size: 60px;
 
+}
+
+.backgroundz {
+  background-image: url(background_image.jpg);
 }
 
 .contacttext {
