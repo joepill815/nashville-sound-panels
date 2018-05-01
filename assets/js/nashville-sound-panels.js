@@ -66,5 +66,5 @@ var feed = new Instafeed({
 // bind the load more button
 loadButton.addEventListener('click', function() {
   feed.next();
-});
+})
 feed.run();
