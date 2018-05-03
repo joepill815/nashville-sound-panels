@@ -237,7 +237,9 @@ jQuery.extend( jQuery.easing,
         return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
     }
 });
-
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
 /*
  *
  * TERMS OF USE - EASING EQUATIONS
@@ -1722,11 +1724,11 @@ for (var func in conversions) {
   // export rgb2hsl and ["rgb"]["hsl"]
   convert[from] = convert[from] || {};
 
-  convert[from][to] = convert[func] = (function(func) { 
+  convert[from][to] = convert[func] = (function(func) {
     return function(arg) {
       if (typeof arg == "number")
         arg = Array.prototype.slice.call(arguments);
-      
+
       var val = conversions[func](arg);
       if (typeof val == "string" || val === undefined)
         return val; // keyword
@@ -1754,12 +1756,12 @@ Converter.prototype.routeSpace = function(space, args) {
    }
    // color.rgb(10, 10, 10)
    if (typeof values == "number") {
-      values = Array.prototype.slice.call(args);        
+      values = Array.prototype.slice.call(args);
    }
 
    return this.setValues(space, values);
 };
-  
+
 /* Set the values for a space, invalidating cache */
 Converter.prototype.setValues = function(space, values) {
    this.space = space;
@@ -19715,7 +19717,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * easy-pie-chart
  * Lightweight plugin to render simple, animated and retina optimized pie charts
  *
- * @license 
+ * @license
  * @author Robert Fleischmann <rendro87@gmail.com> (http://robert-fleischmann.de)
  * @version 2.1.7
  **/
@@ -23205,7 +23207,7 @@ $.extend($.fn.pickadate.defaults, {
 
       onRender: function () {
       var $pickerInstance = this.$root;
- 
+
           var year = this.get('highlight', 'yyyy');
           var day = this.get('highlight', 'dd');
           var month = this.get('highlight', 'mmm');
@@ -25386,7 +25388,7 @@ ClockPicker.prototype.parseInputValue = function(){
 
 var initPhotoSwipeFromDOM = function (gallerySelector) {
 
-    // parse slide data (url, title, size ...) from DOM elements 
+    // parse slide data (url, title, size ...) from DOM elements
     // (children of gallerySelector)
     var parseThumbnailElements = function (el) {
         var thumbElements = el.childNodes,
@@ -25401,7 +25403,7 @@ var initPhotoSwipeFromDOM = function (gallerySelector) {
 
             figureEl = thumbElements[i]; // <figure> element
 
-            // include only element nodes 
+            // include only element nodes
             if (figureEl.nodeType !== 1) {
                 continue;
             }
@@ -25546,7 +25548,7 @@ var initPhotoSwipeFromDOM = function (gallerySelector) {
         // PhotoSwipe opened from URL
         if (fromURL) {
             if (options.galleryPIDs) {
-                // parse real index when custom PIDs are used 
+                // parse real index when custom PIDs are used
                 // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
                 for (var j = 0; j < items.length; j++) {
                     if (items[j].pid == index) {
@@ -27494,8 +27496,8 @@ initPhotoSwipeFromDOM('.mdb-lightbox');
 
 'use strict';
 
-/* 
- * Material Design for Bootstrap 
+/*
+ * Material Design for Bootstrap
  * MDB Autocomplete Plugin
  */
 
