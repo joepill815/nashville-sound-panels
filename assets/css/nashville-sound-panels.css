@@ -72,13 +72,19 @@ margin-left: 100px;
 }
 
 .sourcetext {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .lightboxspacing {
   padding-top: 30px:
   padding-bottom:30px;
 
+}
+
+.moimages {
+
+  padding-left: 30px:
+  padding-right: 30px;
 }
 
 /* TODO
