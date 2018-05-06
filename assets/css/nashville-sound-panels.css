@@ -14,15 +14,10 @@ p {
   width: auto;
 }
 .logobish {
-  font-size: 60px;
+  font-size: 100px;
   padding-left: 6px;
   padding-right: 6px;
   color: #212529;
-
-}
-
-.nobgpanel {
-margin-left: 100px;
 
 }
 
@@ -87,6 +82,10 @@ margin-left: 100px;
   padding-right: 30px;
 }
 
+.nobgpanel {
+
+  margin-left: 175px;
+}
 /* TODO
 .titlez {
   font-size: px;
