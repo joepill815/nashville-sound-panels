@@ -18,17 +18,23 @@ p {
   padding-left: 6px;
   padding-right: 6px;
   color: #212529;
+}
 
+.testimonial-carousel .carousel-control:before {
+  color: rgba(200, 200, 200, 0.8);
+}
+
+.testimonial-carousel .carousel-control.left:before,
+.testimonial-carousel .carousel-control.right:before {
+  font-size: 10rem;
 }
 
 .cardblah {
-
   font-size: 60px;
-
 }
 
 .backgroundz {
-  background-image: url(background_image.jpg);
+  background-image: url("background_image.jpg");
 }
 
 .contacttext {
@@ -37,13 +43,12 @@ p {
 
 .blackz {
 
-  background-image:
   background-color: #000000;
 
 }
 
 .specialk{
-  padding-left: 500px:
+  padding-left: 500px;
   padding-right: 500px;
 }
 
@@ -71,24 +76,22 @@ p {
 }
 
 .lightboxspacing {
-  padding-top: 30px:
+  padding-top: 30px;
   padding-bottom:30px;
 
 }
 
 .moimages {
 
-  padding-left: 30px:
+  padding-left: 30px;
   padding-right: 30px;
 }
 
-.nobgpanel {
-
-  margin-left: 175px;
-  
+.gallery {
 }
 
-.gallery {
+.nav-link {
+  white-space: nowrap;
 }
 
 /* TODO
