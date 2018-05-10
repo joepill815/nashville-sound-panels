@@ -4,6 +4,7 @@
   // FullPage.js
   $(document).ready(function() {
     $("#fullpage").fullpage({
+      paddingTop: "20px",
       recordHistory: "false",
       //Navigation
       menu: "menu",
