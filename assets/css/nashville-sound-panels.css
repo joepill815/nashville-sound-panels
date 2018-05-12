@@ -105,6 +105,11 @@ p {
 
   }
 
+.nobgpanel {
+  height: auto;
+  max-width: 100%;
+}
+
   .firstslide {
     padding-top: px;
     padding-bottom: px;
@@ -112,6 +117,26 @@ p {
     margin-top: 300px;
     margin-bottom: 300px;
   }
+
+.customizeslide {
+  margin-top: 75px;
+  margin-bottom: 75px;
+
+}
+
+.acousticproperties {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.testimonialslide  {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  }
+
 
 /* TODO
 .titlez {
