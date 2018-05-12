@@ -94,6 +94,25 @@ p {
   white-space: nowrap;
 }
 
+.frontlogo {
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+    margin-left: 300px;
+    margin-right: 300px;
+
+    width: 250px;
+
+  }
+
+  .firstslide {
+    padding-top: px;
+    padding-bottom: px;
+
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
 /* TODO
 .titlez {
   font-size: px;

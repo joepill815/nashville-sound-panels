@@ -3,16 +3,18 @@
 
   // FullPage.js
   $(document).ready(function() {
+    /*
     $("#fullpage").fullpage({
       paddingTop: "20px",
       recordHistory: "false",
+      anchors: ['home', 'intro', 'explore'],
+      normalScrollElements: ['#instagram, #le1, #le2, #le3, #le'],
       //Navigation
       menu: "menu",
-      anchors: [],
       //Design
       controlArrows: true,
       verticalCentered: true
-    });
+    });*/
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
