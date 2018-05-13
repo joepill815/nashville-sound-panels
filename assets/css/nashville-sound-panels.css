@@ -4,6 +4,18 @@ p {
   font-size: 30px;
 }
 
+h5 {
+  white-space: nowrap;
+}
+
+#fullpage {
+  margin-top: 66px;
+}
+#customize {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 .center-600 {
   width: 600px;
   margin-left: auto;
@@ -15,8 +27,8 @@ p {
 }
 .logobish {
   font-size: 100px;
-  padding-left: 6px;
-  padding-right: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #212529;
 }
 
@@ -42,9 +54,7 @@ p {
 }
 
 .blackz {
-
   background-color: #000000;
-
 }
 
 .specialk{
@@ -53,17 +63,14 @@ p {
 }
 
 .widthbz {
-    max-width: 1250px;
-
+  max-width: 1250px;
 }
 
 .widthxa {
-
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .largex {
-
   font-size: 30px;
 }
 
@@ -82,7 +89,6 @@ p {
 }
 
 .moimages {
-
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -95,53 +101,43 @@ p {
 }
 
 .frontlogo {
-    padding-top: 300px;
-    padding-bottom: 300px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 
-    margin-left: 300px;
-    margin-right: 300px;
+  margin-left: 300px;
+  margin-right: 300px;
 
-    width: 250px;
-
-  }
+  width: 250px;
+}
 
 .nobgpanel {
   height: auto;
   max-width: 100%;
 }
 
-  .firstslide {
-    padding-top: px;
-    padding-bottom: px;
-
-    margin-top: 300px;
-    margin-bottom: 300px;
-  }
+.firstslide {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
 
 .customizeslide {
-  margin-top: 75px;
-  margin-bottom: 75px;
-
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .acousticproperties {
-  margin-top: 75px;
-  margin-bottom: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .testimonialslide  {
-  margin-top: 75px;
-  margin-bottom: 75px;
   padding-top: 75px;
   padding-bottom: 75px;
+}
 
-  }
-
-
-/* TODO
-.titlez {
-  font-size: px;
-}*/
+.customize-description {
+  font-size: 25px;
+}
 
 /* ---- grid ---- */
 
