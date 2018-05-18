@@ -18,11 +18,23 @@ h5 {
 
 @media screen and (min-width: 375px) {
   .title-sizing {
-  font-size: 4rem;
-
+    font-size: 4rem;
   }
-
 }
+
+@media screen and (min-width: 375px) {
+  .customize-description {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .headshot {
+    image-width: 50%;
+  }
+}
+
+
 
 .center-600 {
   width: 600px;
