@@ -16,6 +16,14 @@ h5 {
   padding-bottom: 75px;
 }
 
+@media screen and (min-width: 375px) {
+  .title-sizing {
+  font-size: 4rem;
+
+  }
+
+}
+
 .center-600 {
   width: 600px;
   margin-left: auto;
