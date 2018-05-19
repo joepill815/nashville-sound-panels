@@ -1,21 +1,5 @@
 /* Custom styles */
 
-p {
-  font-size: 30px;
-}
-
-h5 {
-  white-space: nowrap;
-}
-
-#fullpage {
-  margin-top: 66px;
-}
-#customize {
-  padding-top: 75px;
-  padding-bottom: 75px;
-}
-
 @media screen and (min-width: 375px) {
   .title-sizing {
     font-size: 4rem;
@@ -30,97 +14,28 @@ h5 {
 
 @media screen and (min-width: 375px) {
   .headshot {
-    image-width: 50%;
+    width: 50%;
   }
 }
 
 
-
-.center-600 {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.forbottom {
-  width: auto;
-}
-.logobish {
-  font-size: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #212529;
-}
-
-.testimonial-carousel .carousel-control:before {
-  color: rgba(200, 200, 200, 0.8);
-}
-
-.testimonial-carousel .carousel-control.left:before,
-.testimonial-carousel .carousel-control.right:before {
-  font-size: 10rem;
-}
-
-.cardblah {
-  font-size: 60px;
-}
-
-.backgroundz {
-  background-image: url("background_image.jpg");
-}
-
-.contacttext {
-  font-size: 60px;
-}
-
-.blackz {
-  background-color: #000000;
-}
-
-.specialk{
-  padding-left: 500px;
-  padding-right: 500px;
-}
-
-.widthbz {
-  max-width: 1250px;
-}
-
-.widthxa {
-  max-width: 500px;
-}
-
-.largex {
+p {
   font-size: 30px;
 }
 
-.quotez {
-  font-size: 60px;
+h5 {
+  white-space: nowrap;
 }
 
-.sourcetext {
+.font-18 {
   font-size: 18px;
-}
-
-.lightboxspacing {
-  padding-top: 30px;
-  padding-bottom:30px;
-
-}
-
-.moimages {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.gallery {
 }
 
 .nav-link {
   white-space: nowrap;
 }
 
-.frontlogo {
+.logo-main {
   padding-top: 300px;
   padding-bottom: 300px;
 
@@ -130,15 +45,22 @@ h5 {
   width: 250px;
 }
 
+.social-logo {
+  font-size: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #212529;
+}
+
 .nobgpanel {
   height: auto;
   max-width: 75%;
 }
 
+
 .firstslide {
   padding-top: 150px;
   padding-bottom: 150px;
-
 }
 
 .customizeslide {
@@ -146,7 +68,7 @@ h5 {
   padding-bottom: 75px;
 }
 
-.acousticproperties {
+.acousticpropertiesslide {
   padding-top: 75px;
   padding-bottom: 75px;
 }
@@ -156,32 +78,11 @@ h5 {
   padding-bottom: 75px;
 }
 
-.customize-description {
-  font-size: 25px;
+.testimonial-carousel .carousel-control:before {
+  color: rgba(200, 200, 200, 0.8);
 }
 
-/* ---- grid ---- */
-
-.grid {
-  display: flex;
-  background: #DDD;
-}
-
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- .grid-item ---- */
-
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
-}
-
-.grid-item img {
-  display: block;
-  max-width: 100%;
+.testimonial-carousel .carousel-control.left:before,
+.testimonial-carousel .carousel-control.right:before {
+  font-size: 10rem;
 }
