@@ -54,7 +54,7 @@ h5 {
 
 .nobgpanel {
   height: auto;
-  max-width: 50%;
+  max-width: 75%;
   margin-bottom: 40px;
 }
 
@@ -78,13 +78,18 @@ h5 {
 }
 
 .acousticpropertiesslide {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .testimonialslide  {
   padding-top: 75px;
   padding-bottom: 75px;
+}
+
+.socialicons {
+  padding-top: 10px;
+  padding-bottom: 10px
 }
 
 .testimonial-carousel .carousel-control:before {
