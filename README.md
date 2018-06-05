@@ -1,11 +1,5 @@
 # This is the NSP Website Github
 
-* managed by Joe & Eric 
+* managed by joe@nashvillesoundpanels.com
 
-* and sometimes Jon
-
-## To work on this project
-* clone this repo
-* from the command line, run ```npm install``` in the lib directory
-> this will install all dependencies
-* don't burn things in the toaster oven
+* with much help from [Jon](https://github.com/ch4ot1c)
