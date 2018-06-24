@@ -1,0 +1,102 @@
+// Your custom styles
+
+@media screen and (min-width: 375px) {
+  .title-sizing {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .customize-description {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .headshot {
+    width: 50%;
+  }
+}
+
+
+p {
+  font-size: 30px;
+}
+
+h5 {
+  white-space: nowrap;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+.logo-main {
+  padding-top: 300px;
+  padding-bottom: 300px;
+
+  margin-left: 300px;
+  margin-right: 300px;
+
+  width: 250px;
+}
+
+.social-logo {
+  font-size: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #212529;
+}
+
+.nobgpanel {
+  height: auto;
+  max-width: 75%;
+  margin-bottom: 40px;
+}
+
+.images-customize-slide {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.lightboxphotos {
+  text-align: center;
+}
+
+.firstslide {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.customizeslide {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.acousticpropertiesslide {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonialslide  {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.socialicons {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.testimonial-carousel .carousel-control:before {
+  color: rgba(200, 200, 200, 0.8);
+}
+
+.testimonial-carousel .carousel-control.left:before,
+.testimonial-carousel .carousel-control.right:before {
+  font-size: 10rem;
+}

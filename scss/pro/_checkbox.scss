@@ -1,5 +1,6 @@
 // Checkbox
-[type="checkbox"] {
+.form-check-input[type="checkbox"],
+label.btn input[type="checkbox"] {
   @extend %hide-radio-checkbox;
   + label {
     @extend %base-radio-checkbox-label;
@@ -143,8 +144,8 @@
 
   &.filled-in-danger {
     &:checked + label:after {
-      background-color: map-get($red, "base");
-      border-color: map-get($red, "base");
+      background-color: $red-base;
+      border-color: $red-base;
     }
   }
 }

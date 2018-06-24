@@ -1,6 +1,9 @@
 // Dropdown pro
 // Dropdowns menu's colors
-.dropdown {
+.dropdown,
+.dropup,
+.dropleft,
+.dropright {
   .dropdown-menu {
     padding: $dropdown-menu-padding;
     @each $name, $color in $dropdown-colors {
@@ -29,7 +32,7 @@
       }
       &:hover,
       &:active {
-        @extend .z-depth-1-half;
+        box-shadow: $z-depth-1-half;
         @extend .white-text;
         background-color: $primary-color;
         border-radius: $border-radius-base;
