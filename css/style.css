@@ -100,3 +100,10 @@ h5 {
 .testimonial-carousel .carousel-control.right:before {
   font-size: 10rem;
 }
+
+.newsletterbar {
+
+  padding-top: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
